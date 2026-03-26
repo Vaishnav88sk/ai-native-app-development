@@ -7,7 +7,9 @@ An AI-powered platform that converts natural language ideas into complete full-s
 
 See how AI Intent transforms ideas into applications:
 
-![Demo](assets/ai-intent-app.gif)
+<p align="center">
+  <img src="assets/ai-intent-app.gif" width="100%" />
+</p>
 
 ---
 
