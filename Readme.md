@@ -20,7 +20,7 @@ An AI-powered platform that converts natural language ideas into complete full-s
 ## 🏗️ Project Structure
 
 ```
-ai-intent-platform/
+ai-native-app-development/
 │
 ├── backend/                # FastAPI backend
 ├── frontend/
@@ -54,7 +54,7 @@ ai-intent-platform/
 
 ```
 git clone https://github.com/Vaishnav88sk/ai-native-app-development.git
-cd ai-intent-platform/
+cd ai-native-app-development/
 ```
 
 ---
