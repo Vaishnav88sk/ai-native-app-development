@@ -125,7 +125,7 @@ def register(user_data: UserRegister):
     user = User(
         email=user_data.email,
         full_name=user_data.full_name,
-        hashed_password=pwd_context.hash(user_data.password)
+        hashed_password=pwd_context.hash(user_data.password[:72])
     )
 
     db.add(user)
@@ -142,7 +142,7 @@ def login(login_data: UserLogin):
     user = db.query(User).filter(User.email == login_data.email).first()
 
     if not user or not pwd_context.verify(
-        login_data.password,
+        login_data.password[:72],
         user.hashed_password
     ):
         raise HTTPException(401, "Incorrect email or password")
