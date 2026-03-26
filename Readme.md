@@ -140,13 +140,19 @@ npm run dev
 
 ## ✨ Example Prompts
 
-Try these in the app:
 
-* "Build a food delivery app like Swiggy"
-* "Create a task manager with authentication and deadlines"
-* "Develop an e-commerce platform for selling books"
-* "Make a chat app with real-time messaging"
-* "Build a fitness tracker with progress analytics"
+
+### 📝 Productivity App
+Build a todo app with user authentication, task categories, due dates, and progress tracking dashboard
+
+### 🛒 E-Commerce Platform
+Create an e-commerce web app with product listings, shopping cart, user accounts, and secure checkout system
+
+### 🤖 AI Assistant
+Build an AI chatbot for customer support with conversation history, FAQs, and real-time responses
+
+### 📊 SaaS Dashboard
+Create a project management tool with Kanban boards, team collaboration, task assignments, and analytics dashboard
 
 ---
 
