@@ -1,16 +1,83 @@
-# React + Vite
+# 🎨 AI Native Development - Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend UI for interacting with the AI Intent Platform.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Tech Stack
 
-## React Compiler
+* React
+* Vite
+* Axios
+* Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+npm install
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create `.env`:
+
+```
+VITE_API_BASE=http://127.0.0.1:8000 or https://your-backend-domain.com
+```
+
+---
+
+## ▶️ Run App
+
+```
+npm run dev
+```
+
+---
+
+## 📺 Features
+
+* 🔐 Login & Authentication
+* ✍️ Prompt-based app generation
+* 📊 Architecture visualization
+* ✅ Validation screen
+* 📦 Generated app preview
+
+---
+
+## 🔗 API Integration
+
+Uses Axios to communicate with backend:
+
+* Auth APIs
+* App generation APIs
+
+---
+
+## 🧠 User Flow
+
+1. Login/Register
+2. Enter prompt
+3. View architecture progress
+4. Validate output
+5. See generated result
+
+---
+
+## ⚠️ Notes
+
+* Ensure backend is running
+* Update API base URL for production
+
+---
+
+## 🚀 Future Improvements
+
+* Dark mode
+* Better UI animations
+* Download generated code
+* Real-time streaming responses
