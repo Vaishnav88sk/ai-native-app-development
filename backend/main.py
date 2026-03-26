@@ -36,8 +36,6 @@ app.add_middleware(
 
 import hashlib
 
-def safe_password(password: str) -> str:
-    return hashlib.sha256(password.encode()).hexdigest()
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 if not SECRET_KEY:
@@ -127,7 +125,7 @@ def register(user_data: UserRegister):
     user = User(
         email=user_data.email,
         full_name=user_data.full_name,
-        hashed_password=pwd_context.hash(safe_password(user_data.password))
+        hashed_password=pwd_context.hash(user_data.password)
     )
 
     db.add(user)
@@ -144,7 +142,7 @@ def login(login_data: UserLogin):
     user = db.query(User).filter(User.email == login_data.email).first()
 
     if not user or not pwd_context.verify(
-        safe_password(login_data.password),
+        login_data.password,
         user.hashed_password
     ):
         raise HTTPException(401, "Incorrect email or password")
