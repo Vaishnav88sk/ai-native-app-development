@@ -6,3 +6,4 @@ python-dotenv
 PyJWT
 passlib[bcrypt]
 groq
+psycopg2-binary
