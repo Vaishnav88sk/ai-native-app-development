@@ -1,0 +1,18 @@
+######### Frontend #########
+frontend/ai-intent-frontend/node_modules/
+frontend/ai-intent-frontend/.env
+
+######### Backend #########
+backend/__pycache__/
+backend/venv/
+backend/.env
+
+######### Python #########
+*.pyc
+__pycache__/
+
+######### OS #########
+.DS_Store
+
+######### Logs #########
+*.log
