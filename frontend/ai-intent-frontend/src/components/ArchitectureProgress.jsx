@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 
 const stages = [
   { name: "Frontend", icon: "🖥️" },
-  { name: "API Gateway", icon: "🔗" },
-  { name: "Patient Service", icon: "👤" },
-  { name: "Doctor Service", icon: "🩺" },
-  { name: "Billing Service", icon: "💰" },
+  { name: "Backend API", icon: "🔗" },
+  { name: "Auth Service", icon: "🔐" },
+  { name: "Core Service", icon: "⚙️" },
+  { name: "Processing Service", icon: "🔄" },
   { name: "Database", icon: "🗄️" }
 ];
 
